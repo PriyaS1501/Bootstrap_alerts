@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Bootstrap Alerts</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./bootstrap/css/bootstrap.min.css'>
+    <script src='./bootstrap/js/bootstrap.min.js'></script>
+    <style>
+        .alert{display: inline-block;}
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+    <h3>Alerts : contextual feedback messages</h3>
+    <div class="alert alert-primary col-3" role="alert">
+         primary alert
+      </div>
+      <div class="alert alert-secondary col-3" role="alert">
+         secondary alert
+      </div>
+      <div class="alert alert-success col-3" role="alert">
+         success alert
+      </div>
+      <div class="alert alert-danger col-3" role="alert">
+         danger alert
+      </div>
+      <div class="alert alert-warning col-3" role="alert">
+         warning alert
+      </div>
+      <div class="alert alert-info col-3" role="alert">
+         info alert
+      </div>
+      <div class="alert alert-light col-3" role="alert">
+         light alert
+      </div>
+      <div class="alert alert-dark col-3" role="alert">
+         dark alert
+      </div>
+      <hr>
+      <h3>Link color</h3>
+      <div class="alert alert-primary col-2" role="alert">
+        A simple primary alert with <a href="#" class="alert-link">an example link</a>
+      </div>
+      <div class="alert alert-secondary col-2" role="alert">
+        A simple secondary alert with <a href="#" class="alert-link">an example link</a>
+      </div>
+      <div class="alert alert-info col-2" role="alert">
+        A simple info alert with <a href="#" class="alert-link">an example link</a>
+      </div>
+      <div class="alert alert-light col-2" role="alert">
+        A simple light alert with <a href="#" class="alert-link">an example link</a>
+      </div>
+      <div class="alert alert-dark col-2" role="alert">
+        A simple dark alert with <a href="#" class="alert-link">an example link</a>
+      </div>
+      <div class="alert alert-success col-2" role="alert">
+        A simple success alert with <a href="#" class="alert-link">an example link</a>
+      </div>
+      <div class="alert alert-danger col-2" role="alert">
+        A simple danger alert with <a href="#" class="alert-link">an example link</a>
+      </div>
+      <div class="alert alert-warning col-2" role="alert">
+        A simple warning alert with <a href="#" class="alert-link">an example link</a>
+      </div>
+      <hr>
+      <h3>Additional content</h3>
+      <div class="alert alert-dark col-6" role="alert">
+        <h4 class="alert-heading">Python has stopped working</h4>
+        <p>A problem caused the program to stop working correctly. Windows will close the program and notify you if a solution is available.</p>
+        <hr>
+        <button class="btn btn-dark">Close Program</button>
+      </div>
+      <hr>
+      <h3>Dismissing</h3>
+      <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>Thank You!</strong> form is submitted successfully. We will revert you back within 3-4 working days.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    </div>
+</body>
+</html>
